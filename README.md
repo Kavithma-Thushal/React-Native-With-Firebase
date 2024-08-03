@@ -2,11 +2,11 @@
 
 ## Authentication
 
-<img src="ss/Authentication.png">
+<img src="ss/Authentication.png" width="400px">
 
 ## Image Upload
 
-<img src="ss/ImageUpload.png">
+<img src="ss/ImageUpload.png" width="400px">
 
 ## Version
 
