@@ -20,20 +20,18 @@ export default function Index() {
   const signUp = async () => {
     try {
       const user = await createUserWithEmailAndPassword(auth, email, password);
-      if (user) Alert.alert("Success", "SignUp Successfully!");
+      if (user) Alert.alert("Success", "SignUp Successfully...!");
     } catch (error: any) {
-      console.log(error);
-      Alert.alert("SignUp Failed", error.message);
+      Alert.alert("SignUp Failed : ", error.message);
     }
   };
 
   const signIn = async () => {
     try {
       const user = await signInWithEmailAndPassword(auth, email, password);
-      if (user) Alert.alert("Success", "SignIn Successfully!");
+      if (user) Alert.alert("Success", "SignIn Successfully...!");
     } catch (error: any) {
-      console.log(error);
-      Alert.alert("SignIn Failed", error.message);
+      Alert.alert("SignIn Failed : ", error.message);
     }
   };
 
